@@ -149,10 +149,19 @@ var __makeRelativeRequire = function(require, mappings, pref) {
   }
 };
 require.register("js/app.js", function(exports, require, module) {
+// // For `animation` component.
+// require('aframe-animation-component');
+
+// // For `event-set` component.
+// require('aframe-event-set-component');
+
+// document.addEventListener('DOMContentLoaded', () => {
+//   console.log('Initialized page');
+// });
 
 });
 
-;require.register("js/initialize.js", function(exports, require, module) {
+require.register("js/initialize.js", function(exports, require, module) {
 document.addEventListener('DOMContentLoaded', () => {
   console.log('Initialized app');
 });
